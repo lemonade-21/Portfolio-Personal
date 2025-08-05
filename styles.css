@@ -16,11 +16,6 @@
     /* scroll-behavior: smooth; */
   }
   
-  /* .dark {
-  background-color: #f3f4f6;
-  color: #111;
-} */
-
   body::-webkit-scrollbar {
     display: none; /* For Chrome, Safari, and Opera */
   }
@@ -43,7 +38,7 @@
 /* Font and base letter style */
 .loading-text span {
   font-family: "Special Gothic Expanded One", sans-serif;
-  font-size: 120px;
+  font-size: 20vw; /* This will scale with the screen width */
   color: rgba(255, 255, 255, 0.1);
   position: relative;
   display: inline-block;
